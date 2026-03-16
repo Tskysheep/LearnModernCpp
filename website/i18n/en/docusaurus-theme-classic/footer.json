@@ -1,0 +1,46 @@
+{
+  "link.title.文档": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title 文档"
+  },
+  "link.title.参考": {
+    "message": "References",
+    "description": "The title of the footer links column with title 参考"
+  },
+  "link.item.label.快速开始": {
+    "message": "Quick Start",
+    "description": "The label of footer link with label 快速开始"
+  },
+  "link.item.label.C++11": {
+    "message": "C++11",
+    "description": "The label of footer link with label C++11"
+  },
+  "link.item.label.C++14": {
+    "message": "C++14",
+    "description": "The label of footer link with label C++14"
+  },
+  "link.item.label.C++17": {
+    "message": "C++17",
+    "description": "The label of footer link with label C++17"
+  },
+  "link.item.label.C++20": {
+    "message": "C++20",
+    "description": "The label of footer link with label C++20"
+  },
+  "link.item.label.C++23": {
+    "message": "C++23",
+    "description": "The label of footer link with label C++23"
+  },
+  "link.item.label.cppreference": {
+    "message": "cppreference",
+    "description": "The label of footer link with label cppreference"
+  },
+  "link.item.label.C++ 标准": {
+    "message": "C++ Standard",
+    "description": "The label of footer link with label C++ 标准"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 LearnCpp. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

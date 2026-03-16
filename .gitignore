@@ -1,0 +1,30 @@
+# CMake build
+build/
+
+# Docusaurus
+website/node_modules/
+website/build/
+website/.docusaurus/
+website/.cache-loader/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+
+# claude code相关
+.playwright-mcp
+.claude
