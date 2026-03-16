@@ -13,6 +13,7 @@ const config: Config = {
   organizationName: 'Tskysheep',
   projectName: 'LearnModernCpp',
 
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
