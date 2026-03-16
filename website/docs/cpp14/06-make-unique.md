@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+slug: 06-make-unique
 title: "std::make_unique"
 description: "C++14 std::make_unique 教学示例"
 tags: [cpp14, make_unique]

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 20
+slug: 19-alignof-alignas
 title: "alignof 与 alignas"
 description: "C++11 alignof 与 alignas 教学示例"
 tags: [cpp11, alignof_alignas]

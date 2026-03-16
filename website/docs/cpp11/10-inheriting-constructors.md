@@ -1,5 +1,6 @@
 ---
 sidebar_position: 11
+slug: 10-inheriting-constructors
 title: "继承构造函数 (Inheriting Constructors)"
 description: "C++11 继承构造函数 (Inheriting Constructors) 教学示例"
 tags: [cpp11, inheriting_constructors]

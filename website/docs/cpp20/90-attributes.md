@@ -1,5 +1,6 @@
 ---
 sidebar_position: 91
+slug: 90-attributes
 title: "C++20 属性 ([[likely]], [[unlikely]], [[no_unique_address]])"
 description: "C++20 C++20 属性 ([[likely]], [[unlikely]], [[no_unique_address]]) 教学示例"
 tags: [cpp20, attributes]

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 44
+slug: 43-to-underlying
 title: "std::to_underlying（枚举转底层类型）"
 description: "C++23 std::to_underlying（枚举转底层类型） 教学示例"
 tags: [cpp23, to_underlying]

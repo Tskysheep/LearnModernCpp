@@ -1,5 +1,6 @@
 ---
 sidebar_position: 71
+slug: 70-thread
 title: "std::thread 线程"
 description: "C++11 std::thread 线程 教学示例"
 tags: [cpp11, thread]

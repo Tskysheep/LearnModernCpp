@@ -1,5 +1,6 @@
 ---
 sidebar_position: 45
+slug: 44-function-and-bind
 title: "std::function 与 std::bind"
 description: "C++11 std::function 与 std::bind 教学示例"
 tags: [cpp11, function_and_bind]

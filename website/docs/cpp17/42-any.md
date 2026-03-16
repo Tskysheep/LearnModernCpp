@@ -1,5 +1,6 @@
 ---
 sidebar_position: 43
+slug: 42-any
 title: "std::any (任意类型容器)"
 description: "C++17 std::any (任意类型容器) 教学示例"
 tags: [cpp17, any]

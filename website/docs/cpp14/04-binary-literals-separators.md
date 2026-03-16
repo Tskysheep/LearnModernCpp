@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+slug: 04-binary-literals-separators
 title: "二进制字面量与数字分隔符"
 description: "C++14 二进制字面量与数字分隔符 教学示例"
 tags: [cpp14, binary_literals_separators]

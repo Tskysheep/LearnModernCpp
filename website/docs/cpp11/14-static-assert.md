@@ -1,5 +1,6 @@
 ---
 sidebar_position: 15
+slug: 14-static-assert
 title: "static_assert 编译期断言"
 description: "C++11 static_assert 编译期断言 教学示例"
 tags: [cpp11, static_assert]

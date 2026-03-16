@@ -333,8 +333,12 @@ def generate_zh_page(zh_name, std, code, filename, sidebar_pos, cppreference_url
     mdx_intro = escape_mdx(f"{std} 标准引入的 {zh_name} 特性完整教学示例。")
     mdx_ref = escape_mdx(zh_name)
 
+    # slug preserves number prefix (Docusaurus 3 strips it by default)
+    slug = os.path.splitext(os.path.basename(cpp_to_md_name(basename)))[0]
+
     page = f"""---
 sidebar_position: {sidebar_pos}
+slug: {slug}
 title: "{safe_zh}"
 description: "{safe_desc}"
 tags: {tags_str}

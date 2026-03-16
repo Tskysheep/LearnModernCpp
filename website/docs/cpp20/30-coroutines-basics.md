@@ -1,5 +1,6 @@
 ---
 sidebar_position: 31
+slug: 30-coroutines-basics
 title: "协程基础 (Coroutines: co_await, co_yield, co_return)"
 description: "C++20 协程基础 (Coroutines: co_await, co_yield, co_return) 教学示例"
 tags: [cpp20, coroutines_basics]

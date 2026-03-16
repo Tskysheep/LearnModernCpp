@@ -1,5 +1,6 @@
 ---
 sidebar_position: 45
+slug: 44-byte
 title: "std::byte (类型安全字节)"
 description: "C++17 std::byte (类型安全字节) 教学示例"
 tags: [cpp17, byte]

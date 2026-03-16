@@ -1,5 +1,6 @@
 ---
 sidebar_position: 22
+slug: 21-constexpr
 title: "constexpr 函数和变量"
 description: "C++11 constexpr 函数和变量 教学示例"
 tags: [cpp11, constexpr]

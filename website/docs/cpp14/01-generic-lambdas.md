@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+slug: 01-generic-lambdas
 title: "泛型Lambda（auto参数）"
 description: "C++14 泛型Lambda（auto参数） 教学示例"
 tags: [cpp14, generic_lambdas]

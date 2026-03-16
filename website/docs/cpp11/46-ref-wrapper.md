@@ -1,5 +1,6 @@
 ---
 sidebar_position: 47
+slug: 46-ref-wrapper
 title: "std::ref、std::cref 与 reference_wrapper"
 description: "C++11 std::ref、std::cref 与 reference_wrapper 教学示例"
 tags: [cpp11, ref_wrapper]

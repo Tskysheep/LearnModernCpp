@@ -1,5 +1,6 @@
 ---
 sidebar_position: 14
+slug: 13-noexcept
 title: "noexcept 说明符与运算符"
 description: "C++11 noexcept 说明符与运算符 教学示例"
 tags: [cpp11, noexcept]

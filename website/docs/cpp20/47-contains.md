@@ -1,5 +1,6 @@
 ---
 sidebar_position: 48
+slug: 47-contains
 title: "关联容器 contains()"
 description: "C++20 关联容器 contains() 教学示例"
 tags: [cpp20, contains]

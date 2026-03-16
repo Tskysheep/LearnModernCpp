@@ -1,5 +1,6 @@
 ---
 sidebar_position: 46
+slug: 45-invoke-apply
 title: "std::invoke 与 std::apply (统一调用与元组展开)"
 description: "C++17 std::invoke 与 std::apply (统一调用与元组展开) 教学示例"
 tags: [cpp17, invoke_apply]

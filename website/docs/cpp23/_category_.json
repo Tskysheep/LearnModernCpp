@@ -1,8 +1,5 @@
 {
   "label": "C++23",
   "position": 6,
-  "link": {
-    "type": "generated-index",
-    "description": "C++23 新特性完整教程"
-  }
+  "link": {"type": "doc", "id": "cpp23/index"}
 }

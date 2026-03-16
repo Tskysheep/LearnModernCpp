@@ -1,5 +1,6 @@
 ---
 sidebar_position: 75
+slug: 74-atomic
 title: "原子操作 (std::atomic) 与内存序"
 description: "C++11 原子操作 (std::atomic) 与内存序 教学示例"
 tags: [cpp11, atomic]

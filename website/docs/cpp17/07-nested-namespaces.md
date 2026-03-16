@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+slug: 07-nested-namespaces
 title: "嵌套命名空间 (Nested Namespaces)"
 description: "C++17 嵌套命名空间 (Nested Namespaces) 教学示例"
 tags: [cpp17, nested_namespaces]

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+slug: 07-consteval
 title: "consteval 立即函数"
 description: "C++20 consteval 立即函数 教学示例"
 tags: [cpp20, consteval]

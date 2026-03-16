@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+slug: 05-enum-class
 title: "强类型枚举 (enum class / scoped enum)"
 description: "C++11 强类型枚举 (enum class / scoped enum) 教学示例"
 tags: [cpp11, enum_class]

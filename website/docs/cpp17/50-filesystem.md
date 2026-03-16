@@ -1,5 +1,6 @@
 ---
 sidebar_position: 51
+slug: 50-filesystem
 title: "std::filesystem (文件系统库)"
 description: "C++17 std::filesystem (文件系统库) 教学示例"
 tags: [cpp17, filesystem]

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 44
+slug: 43-unordered-containers
 title: "无序容器 (unordered_map / unordered_set)"
 description: "C++11 无序容器 (unordered_map / unordered_set) 教学示例"
 tags: [cpp11, unordered_containers]

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 11
+slug: 10-aggregate-parens-init
 title: "圆括号聚合初始化 (Parenthesized Aggregate Initialization)"
 description: "C++20 圆括号聚合初始化 (Parenthesized Aggregate Initialization) 教学示例"
 tags: [cpp20, aggregate_parens_init]

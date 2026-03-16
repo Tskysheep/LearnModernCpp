@@ -1,5 +1,6 @@
 ---
 sidebar_position: 74
+slug: 73-future-promise
 title: "future、promise、async、packaged_task"
 description: "C++11 future、promise、async、packaged_task 教学示例"
 tags: [cpp11, future_promise]

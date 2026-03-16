@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+slug: 05-constexpr-if
 title: "if constexpr (编译期 if)"
 description: "C++17 if constexpr (编译期 if) 教学示例"
 tags: [cpp17, constexpr_if]

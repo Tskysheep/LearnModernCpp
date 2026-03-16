@@ -1,5 +1,6 @@
 ---
 sidebar_position: 43
+slug: 42-move-only-function
 title: "std::move_only_function（仅移动函数包装器）"
 description: "C++23 std::move_only_function（仅移动函数包装器） 教学示例"
 tags: [cpp23, move_only_function]

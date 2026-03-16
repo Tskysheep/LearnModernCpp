@@ -1,5 +1,6 @@
 ---
 sidebar_position: 91
+slug: 90-attributes
 title: "[[assume]] 属性（编译器优化假设）"
 description: "C++23 [[assume]] 属性（编译器优化假设） 教学示例"
 tags: [cpp23, attributes]

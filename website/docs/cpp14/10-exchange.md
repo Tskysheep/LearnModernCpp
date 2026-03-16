@@ -1,5 +1,6 @@
 ---
 sidebar_position: 11
+slug: 10-exchange
 title: "std::exchange"
 description: "C++14 std::exchange 教学示例"
 tags: [cpp14, exchange]

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 9
+slug: 08-shared-timed-mutex
 title: "shared_timed_mutex与shared_lock（读写锁）"
 description: "C++14 shared_timed_mutex与shared_lock（读写锁） 教学示例"
 tags: [cpp14, shared_timed_mutex]

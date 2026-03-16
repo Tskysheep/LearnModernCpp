@@ -1,5 +1,6 @@
 ---
 sidebar_position: 41
+slug: 40-smart-pointers
 title: "智能指针 (unique_ptr、shared_ptr、weak_ptr)"
 description: "C++11 智能指针 (unique_ptr、shared_ptr、weak_ptr) 教学示例"
 tags: [cpp11, smart_pointers]

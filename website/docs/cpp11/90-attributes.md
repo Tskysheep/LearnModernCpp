@@ -1,5 +1,6 @@
 ---
 sidebar_position: 91
+slug: 90-attributes
 title: "属性 ([[noreturn]]、[[carries_dependency]])"
 description: "C++11 属性 ([[noreturn]]、[[carries_dependency]]) 教学示例"
 tags: [cpp11, attributes]

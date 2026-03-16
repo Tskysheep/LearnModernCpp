@@ -1,5 +1,6 @@
 ---
 sidebar_position: 44
+slug: 43-source-location
 title: "std::source_location"
 description: "C++20 std::source_location 教学示例"
 tags: [cpp20, source_location]

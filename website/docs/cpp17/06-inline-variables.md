@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+slug: 06-inline-variables
 title: "inline 变量 (Inline Variables)"
 description: "C++17 inline 变量 (Inline Variables) 教学示例"
 tags: [cpp17, inline_variables]

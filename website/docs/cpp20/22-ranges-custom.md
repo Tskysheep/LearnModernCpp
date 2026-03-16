@@ -1,5 +1,6 @@
 ---
 sidebar_position: 23
+slug: 22-ranges-custom
 title: "自定义范围和视图适配器 (Custom Ranges and View Adaptors)"
 description: "C++20 自定义范围和视图适配器 (Custom Ranges and View Adaptors) 教学示例"
 tags: [cpp20, ranges_custom]

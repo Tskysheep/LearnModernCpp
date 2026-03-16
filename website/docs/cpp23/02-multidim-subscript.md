@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: 02-multidim-subscript
 title: "多维下标运算符 operator[]"
 description: "C++23 多维下标运算符 operator[] 教学示例"
 tags: [cpp23, multidim_subscript]

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 12
+slug: 11-quoted
 title: "std::quoted"
 description: "C++14 std::quoted 教学示例"
 tags: [cpp14, quoted]

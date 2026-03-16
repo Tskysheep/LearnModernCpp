@@ -1,5 +1,6 @@
 ---
 sidebar_position: 71
+slug: 70-jthread
 title: "jthread 和 stop_token (协作式线程取消)"
 description: "C++20 jthread 和 stop_token (协作式线程取消) 教学示例"
 tags: [cpp20, jthread]

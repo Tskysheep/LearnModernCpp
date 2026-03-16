@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: 02-concepts-advanced
 title: "Concepts 高级 (自定义 concept、组合约束)"
 description: "C++20 Concepts 高级 (自定义 concept、组合约束) 教学示例"
 tags: [cpp20, concepts_advanced]

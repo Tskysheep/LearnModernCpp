@@ -1,5 +1,6 @@
 ---
 sidebar_position: 41
+slug: 40-expected
 title: "std::expected（期望值类型）"
 description: "C++23 std::expected（期望值类型） 教学示例"
 tags: [cpp23, expected]

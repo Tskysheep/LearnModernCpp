@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+slug: 03-requires-expressions
 title: "requires 表达式"
 description: "C++20 requires 表达式 教学示例"
 tags: [cpp20, requires_expressions]

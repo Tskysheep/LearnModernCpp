@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+slug: 06-uniform-initialization
 title: "统一初始化 (Uniform Initialization / Brace Initialization)"
 description: "C++11 统一初始化 (Uniform Initialization / Brace Initialization) 教学示例"
 tags: [cpp11, uniform_initialization]

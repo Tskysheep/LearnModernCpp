@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: 02-if-switch-init
 title: "if/switch 中的初始化语句 (Init Statements)"
 description: "C++17 if/switch 中的初始化语句 (Init Statements) 教学示例"
 tags: [cpp17, if_switch_init]

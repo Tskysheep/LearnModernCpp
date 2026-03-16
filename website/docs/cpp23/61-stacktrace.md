@@ -1,5 +1,6 @@
 ---
 sidebar_position: 62
+slug: 61-stacktrace
 title: "std::stacktrace（栈追踪）"
 description: "C++23 std::stacktrace（栈追踪） 教学示例"
 tags: [cpp23, stacktrace]

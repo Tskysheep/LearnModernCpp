@@ -1,5 +1,6 @@
 ---
 sidebar_position: 10
+slug: 09-integer-sequence
 title: "integer_sequence与index_sequence"
 description: "C++14 integer_sequence与index_sequence 教学示例"
 tags: [cpp14, integer_sequence]

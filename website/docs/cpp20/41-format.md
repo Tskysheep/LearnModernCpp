@@ -1,5 +1,6 @@
 ---
 sidebar_position: 42
+slug: 41-format
 title: "std::format (格式化字符串)"
 description: "C++20 std::format (格式化字符串) 教学示例"
 tags: [cpp20, format]

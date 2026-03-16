@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+slug: 05-relaxed-constexpr
 title: "放松的constexpr"
 description: "C++14 放松的constexpr 教学示例"
 tags: [cpp14, relaxed_constexpr]

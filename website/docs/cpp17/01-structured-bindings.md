@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+slug: 01-structured-bindings
 title: "结构化绑定 (Structured Bindings)"
 description: "C++17 结构化绑定 (Structured Bindings) 教学示例"
 tags: [cpp17, structured_bindings]

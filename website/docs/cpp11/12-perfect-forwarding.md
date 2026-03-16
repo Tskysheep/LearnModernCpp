@@ -1,5 +1,6 @@
 ---
 sidebar_position: 13
+slug: 12-perfect-forwarding
 title: "完美转发 (Perfect Forwarding)"
 description: "C++11 完美转发 (Perfect Forwarding) 教学示例"
 tags: [cpp11, perfect_forwarding]

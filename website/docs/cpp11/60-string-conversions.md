@@ -1,5 +1,6 @@
 ---
 sidebar_position: 61
+slug: 60-string-conversions
 title: "字符串转换函数 (to_string、stoi、stol、stof等)"
 description: "C++11 字符串转换函数 (to_string、stoi、stol、stof等) 教学示例"
 tags: [cpp11, string_conversions]

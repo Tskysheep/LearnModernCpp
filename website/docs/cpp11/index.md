@@ -32,6 +32,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 01. auto 与 decltype (`01_auto_and_decltype.cpp`)
 
+> **[→ 查看完整代码](./01-auto-and-decltype)**
+
 - **auto** 让编译器自动推导变量类型，消除冗长的迭代器声明
 - **decltype** 查询表达式的类型，用于泛型编程中的类型推导
 - 尾置返回类型 `auto f() -> T` 支持依赖参数的返回类型
@@ -41,6 +43,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 02. 范围 for 循环 (`02_range_based_for.cpp`)
+
+> **[→ 查看完整代码](./02-range-based-for)**
 
 - `for (auto& x : container)` 替代传统的迭代器循环
 - 支持所有提供 `begin()`/`end()` 的类型
@@ -52,6 +56,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 03. Lambda 表达式 (`03_lambda_expressions.cpp`)
 
+> **[→ 查看完整代码](./03-lambda-expressions)**
+
 - 语法：`[捕获](参数) -> 返回类型 { 函数体 }`
 - 捕获方式：`[=]` 值捕获、`[&]` 引用捕获、`[this]` 捕获 this
 - 替代冗长的仿函数类，直接传递行为给 STL 算法
@@ -62,6 +68,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 04. nullptr (`04_nullptr.cpp`)
 
+> **[→ 查看完整代码](./04-nullptr)**
+
 - 类型安全的空指针常量，类型为 `std::nullptr_t`
 - 修复 `NULL`/`0` 在函数重载决议中的歧义
 
@@ -70,6 +78,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 05. 强类型枚举 (`05_enum_class.cpp`)
+
+> **[→ 查看完整代码](./05-enum-class)**
 
 - `enum class` 不会隐式转换为整数
 - 枚举值不会泄漏到外围作用域
@@ -80,6 +90,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 06. 统一初始化 (`06_uniform_initialization.cpp`)
+
+> **[→ 查看完整代码](./06-uniform-initialization)**
 
 - 花括号 `{}` 提供一致的初始化语法
 - 防止窄化转换（如 `int x{3.14}` 编译报错）
@@ -95,6 +107,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 07. = default 与 = delete (`07_default_delete.cpp`)
 
+> **[→ 查看完整代码](./07-default-delete)**
+
 - `= default` 显式要求编译器生成默认实现
 - `= delete` 禁止特定函数（如拷贝构造）
 - 明确表达设计意图
@@ -104,6 +118,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 08. override 与 final (`08_override_final.cpp`)
+
+> **[→ 查看完整代码](./08-override-final)**
 
 - `override` 确保函数确实覆盖了基类虚函数
 - `final` 阻止进一步继承或覆盖
@@ -115,6 +131,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 09. 委托构造函数 (`09_delegating_constructors.cpp`)
 
+> **[→ 查看完整代码](./09-delegating-constructors)**
+
 - 一个构造函数可以调用同类的另一个构造函数
 - 消除构造函数之间的代码重复
 
@@ -124,6 +142,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 10. 继承构造函数 (`10_inheriting_constructors.cpp`)
 
+> **[→ 查看完整代码](./10-inheriting-constructors)**
+
 - `using Base::Base;` 自动继承基类构造函数
 - 避免在派生类中编写大量转发构造函数
 
@@ -132,6 +152,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 11. 移动语义 (`11_move_semantics.cpp`)
+
+> **[→ 查看完整代码](./11-move-semantics)**
 
 :::tip 核心特性
 **C++11 最核心的特性之一**，理解移动语义是掌握现代 C++ 的关键。
@@ -147,6 +169,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 12. 完美转发 (`12_perfect_forwarding.cpp`)
 
+> **[→ 查看完整代码](./12-perfect-forwarding)**
+
 - 万能引用 `T&&`（模板参数推导上下文）
 - `std::forward<T>` 保持参数的值类别
 - 引用折叠规则：`& + && = &`，`&& + && = &&`
@@ -156,6 +180,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 13. noexcept (`13_noexcept.cpp`)
+
+> **[→ 查看完整代码](./13-noexcept)**
 
 - 标记函数不会抛出异常
 - 容器在 `noexcept` 移动时才使用移动操作（否则回退到拷贝）
@@ -171,6 +197,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 14. static_assert (`14_static_assert.cpp`)
 
+> **[→ 查看完整代码](./14-static-assert)**
+
 - 编译期断言，失败时输出自定义错误信息
 - 常与 `type_traits` 配合检查模板参数
 
@@ -179,6 +207,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 15. 原始字符串字面量 (`15_raw_string_literals.cpp`)
+
+> **[→ 查看完整代码](./15-raw-string-literals)**
 
 - `R"(内容)"` 中的反斜杠不是转义符
 - 正则表达式、Windows 路径、多行字符串的救星
@@ -189,6 +219,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 16. Unicode 字面量 (`16_unicode_literals.cpp`)
 
+> **[→ 查看完整代码](./16-unicode-literals)**
+
 - `u8""`、`u""`、`U""` 分别对应 UTF-8、UTF-16、UTF-32
 - 新增 `char16_t`、`char32_t` 类型
 
@@ -197,6 +229,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 17. 用户自定义字面量 (`17_user_defined_literals.cpp`)
+
+> **[→ 查看完整代码](./17-user-defined-literals)**
 
 - `operator""` 实现自定义后缀（如 `10_km`、`3.14_deg`）
 - 标准库提供了 `s`（string）、`ms`（chrono）等
@@ -207,6 +241,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 18. using 类型别名 (`18_type_aliases.cpp`)
 
+> **[→ 查看完整代码](./18-type-aliases)**
+
 - `using Name = Type;` 替代 `typedef`
 - 支持模板别名：`template<typename T> using Vec = std::vector<T>;`
 
@@ -215,6 +251,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 19. alignof 与 alignas (`19_alignof_alignas.cpp`)
+
+> **[→ 查看完整代码](./19-alignof-alignas)**
 
 - `alignof` 查询类型的对齐要求
 - `alignas` 指定变量/类型的对齐方式
@@ -230,6 +268,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 20. 可变参数模板 (`20_variadic_templates.cpp`)
 
+> **[→ 查看完整代码](./20-variadic-templates)**
+
 - `template<typename... Args>` 接受任意数量的模板参数
 - 递归展开参数包
 - `sizeof...(Args)` 获取参数个数
@@ -239,6 +279,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 21. constexpr (`21_constexpr.cpp`)
+
+> **[→ 查看完整代码](./21-constexpr)**
 
 - `constexpr` 函数可在编译期求值
 - C++11 限制较多（单条 return 语句）
@@ -250,6 +292,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 22. type_traits (`22_type_traits.cpp`)
 
+> **[→ 查看完整代码](./22-type-traits)**
+
 - 编译期类型内省：`is_integral`、`is_same`、`is_pointer` 等
 - `enable_if` 实现 SFINAE
 - `conditional`、`remove_const` 等类型变换
@@ -259,6 +303,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 23. initializer_list (`23_initializer_list.cpp`)
+
+> **[→ 查看完整代码](./23-initializer-list)**
 
 - `std::initializer_list<T>` 支持花括号初始化语法
 - `vector<int> v = {1, 2, 3};` 的底层机制
@@ -272,6 +318,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 ## 标准库 - 容器与工具
 
 ### 40. 智能指针 (`40_smart_pointers.cpp`)
+
+> **[→ 查看完整代码](./40-smart-pointers)**
 
 :::tip 核心特性
 智能指针是现代 C++ 内存管理的基石，**务必掌握**。
@@ -288,6 +336,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 41. tuple (`41_tuple.cpp`)
 
+> **[→ 查看完整代码](./41-tuple)**
+
 - 异构值的固定大小集合
 - `std::tie` 解包到变量
 - 支持比较、哈希
@@ -297,6 +347,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 42. std::array (`42_array.cpp`)
+
+> **[→ 查看完整代码](./42-array)**
 
 - 固定大小数组，带 STL 接口
 - `at()` 提供边界检查
@@ -308,6 +360,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 43. 无序容器 (`43_unordered_containers.cpp`)
 
+> **[→ 查看完整代码](./43-unordered-containers)**
+
 - `unordered_map`/`unordered_set` 基于哈希表
 - O(1) 平均查找时间
 - 自定义类型需要提供哈希函数
@@ -317,6 +371,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 44. function 与 bind (`44_function_and_bind.cpp`)
+
+> **[→ 查看完整代码](./44-function-and-bind)**
 
 - `std::function` 是类型擦除的通用可调用包装器
 - `std::bind` 绑定部分参数
@@ -328,6 +384,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 45. forward_list (`45_forward_list.cpp`)
 
+> **[→ 查看完整代码](./45-forward-list)**
+
 - 单向链表，最小内存开销
 - 只支持前向迭代
 - `insert_after`/`erase_after` 操作
@@ -337,6 +395,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 46. reference_wrapper (`46_ref_wrapper.cpp`)
+
+> **[→ 查看完整代码](./46-ref-wrapper)**
 
 - `std::ref`/`std::cref` 创建引用包装器
 - 解决模板/线程中引用传递的问题
@@ -351,6 +411,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 60. 字符串转换 (`60_string_conversions.cpp`)
 
+> **[→ 查看完整代码](./60-string-conversions)**
+
 - `std::to_string` 数值转字符串
 - `std::stoi`/`stol`/`stof` 等字符串转数值
 - 替代不安全的 `sprintf`/`sscanf`
@@ -360,6 +422,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 61. 正则表达式 (`61_regex.cpp`)
+
+> **[→ 查看完整代码](./61-regex)**
 
 - `regex_match`：完整匹配
 - `regex_search`：搜索子串
@@ -379,6 +443,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 70. 线程 (`70_thread.cpp`)
 
+> **[→ 查看完整代码](./70-thread)**
+
 - C++ 首个标准线程库
 - `std::thread` 创建线程
 - `join()` 等待结束、`detach()` 分离
@@ -389,6 +455,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 71. 互斥锁 (`71_mutex_and_locks.cpp`)
 
+> **[→ 查看完整代码](./71-mutex-and-locks)**
+
 - `std::mutex` 保护共享数据
 - `lock_guard` RAII 自动锁管理
 - `unique_lock` 更灵活的锁控制
@@ -398,6 +466,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 72. 条件变量 (`72_condition_variable.cpp`)
+
+> **[→ 查看完整代码](./72-condition-variable)**
 
 - 生产者-消费者模式的标准实现
 - `wait`/`notify_one`/`notify_all`
@@ -412,6 +482,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 73. future 与 promise (`73_future_promise.cpp`)
 
+> **[→ 查看完整代码](./73-future-promise)**
+
 - `std::async` 启动异步任务
 - `promise`-`future` 跨线程通信通道
 - `packaged_task` 包装可调用对象
@@ -421,6 +493,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 74. 原子操作 (`74_atomic.cpp`)
+
+> **[→ 查看完整代码](./74-atomic)**
 
 - `std::atomic<T>` 无锁原子操作
 - 内存序控制并发访问的可见性
@@ -436,6 +510,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 
 ### 80. chrono (`80_chrono.cpp`)
 
+> **[→ 查看完整代码](./80-chrono)**
+
 - `duration`：类型安全的时间段
 - `time_point`：时间点
 - `steady_clock`：单调时钟（计时首选）
@@ -445,6 +521,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 81. 随机数 (`81_random.cpp`)
+
+> **[→ 查看完整代码](./81-random)**
 
 - `mt19937`：梅森旋转引擎
 - `uniform_int_distribution` 等分布
@@ -459,6 +537,8 @@ C++11 是现代 C++ 的起点。掌握 C++11 是学习后续所有 C++ 标准版
 :::
 
 ### 90. 属性 (`90_attributes.cpp`)
+
+> **[→ 查看完整代码](./90-attributes)**
 
 - `[[noreturn]]`：标记不会返回的函数
 - C++11 引入的标准化属性语法

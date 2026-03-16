@@ -1,5 +1,6 @@
 ---
 sidebar_position: 73
+slug: 72-condition-variable
 title: "条件变量 (condition_variable)"
 description: "C++11 条件变量 (condition_variable) 教学示例"
 tags: [cpp11, condition_variable]

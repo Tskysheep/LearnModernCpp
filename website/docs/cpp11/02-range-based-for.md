@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: 02-range-based-for
 title: "范围for循环 (Range-based for loop)"
 description: "C++11 范围for循环 (Range-based for loop) 教学示例"
 tags: [cpp11, range_based_for]

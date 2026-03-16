@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+slug: 04-fold-expressions
 title: "折叠表达式 (Fold Expressions)"
 description: "C++17 折叠表达式 (Fold Expressions) 教学示例"
 tags: [cpp17, fold_expressions]

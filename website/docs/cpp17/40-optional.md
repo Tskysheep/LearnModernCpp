@@ -1,5 +1,6 @@
 ---
 sidebar_position: 41
+slug: 40-optional
 title: "std::optional (可选值)"
 description: "C++17 std::optional (可选值) 教学示例"
 tags: [cpp17, optional]

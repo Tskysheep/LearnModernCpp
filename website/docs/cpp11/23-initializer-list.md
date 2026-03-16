@@ -1,5 +1,6 @@
 ---
 sidebar_position: 24
+slug: 23-initializer-list
 title: "std::initializer_list"
 description: "C++11 std::initializer_list 教学示例"
 tags: [cpp11, initializer_list]

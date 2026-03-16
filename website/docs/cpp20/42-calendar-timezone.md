@@ -1,5 +1,6 @@
 ---
 sidebar_position: 43
+slug: 42-calendar-timezone
 title: "chrono 日历和时区 (Calendar and Time Zone)"
 description: "C++20 chrono 日历和时区 (Calendar and Time Zone) 教学示例"
 tags: [cpp20, calendar_timezone]

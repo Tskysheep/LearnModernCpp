@@ -1,5 +1,6 @@
 ---
 sidebar_position: 41
+slug: 40-span
 title: "std::span"
 description: "C++20 std::span 教学示例"
 tags: [cpp20, span]

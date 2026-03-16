@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+slug: 01-auto-and-decltype
 title: "auto类型推导与decltype"
 description: "C++11 auto类型推导与decltype 教学示例"
 tags: [cpp11, auto_and_decltype]

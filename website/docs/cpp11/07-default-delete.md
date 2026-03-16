@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+slug: 07-default-delete
 title: "=default 与 =delete"
 description: "C++11 =default 与 =delete 教学示例"
 tags: [cpp11, default_delete]

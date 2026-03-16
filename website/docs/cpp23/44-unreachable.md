@@ -1,5 +1,6 @@
 ---
 sidebar_position: 45
+slug: 44-unreachable
 title: "std::unreachable（不可达标记）"
 description: "C++23 std::unreachable（不可达标记） 教学示例"
 tags: [cpp23, unreachable]

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 91
+slug: 90-attributes
 title: "C++17 属性 [[nodiscard]]、[[maybe_unused]]、[[fallthrough]]"
 description: "C++17 C++17 属性 [[nodiscard]]、[[maybe_unused]]、[[fallthrough]] 教学示例"
 tags: [cpp17, attributes]

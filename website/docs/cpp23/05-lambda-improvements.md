@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+slug: 05-lambda-improvements
 title: "Lambda 改进（C++23）"
 description: "C++23 Lambda 改进（C++23） 教学示例"
 tags: [cpp23, lambda_improvements]

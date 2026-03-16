@@ -1,5 +1,6 @@
 ---
 sidebar_position: 10
+slug: 09-delegating-constructors
 title: "委托构造函数 (Delegating Constructors)"
 description: "C++11 委托构造函数 (Delegating Constructors) 教学示例"
 tags: [cpp11, delegating_constructors]

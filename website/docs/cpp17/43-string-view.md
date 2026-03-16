@@ -1,5 +1,6 @@
 ---
 sidebar_position: 44
+slug: 43-string-view
 title: "std::string_view (非拥有字符串视图)"
 description: "C++17 std::string_view (非拥有字符串视图) 教学示例"
 tags: [cpp17, string_view]

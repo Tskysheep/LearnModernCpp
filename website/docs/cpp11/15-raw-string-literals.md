@@ -1,5 +1,6 @@
 ---
 sidebar_position: 16
+slug: 15-raw-string-literals
 title: "原始字符串字面量 (Raw String Literals)"
 description: "C++11 原始字符串字面量 (Raw String Literals) 教学示例"
 tags: [cpp11, raw_string_literals]

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 19
+slug: 18-type-aliases
 title: "using类型别名 (Type Aliases)"
 description: "C++11 using类型别名 (Type Aliases) 教学示例"
 tags: [cpp11, type_aliases]

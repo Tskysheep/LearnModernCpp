@@ -1,5 +1,6 @@
 ---
 sidebar_position: 45
+slug: 44-bit-cast
 title: "std::bit_cast"
 description: "C++20 std::bit_cast 教学示例"
 tags: [cpp20, bit_cast]

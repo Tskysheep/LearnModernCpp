@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+slug: 07-deprecated-attribute
 title: "[[deprecated]]属性"
 description: "C++14 [[deprecated]]属性 教学示例"
 tags: [cpp14, deprecated_attribute]

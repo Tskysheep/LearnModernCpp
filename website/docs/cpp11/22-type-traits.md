@@ -1,5 +1,6 @@
 ---
 sidebar_position: 23
+slug: 22-type-traits
 title: "类型特征 (Type Traits)"
 description: "C++11 类型特征 (Type Traits) 教学示例"
 tags: [cpp11, type_traits]

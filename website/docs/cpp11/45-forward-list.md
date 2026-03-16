@@ -1,5 +1,6 @@
 ---
 sidebar_position: 46
+slug: 45-forward-list
 title: "std::forward_list (单向链表)"
 description: "C++11 std::forward_list (单向链表) 教学示例"
 tags: [cpp11, forward_list]

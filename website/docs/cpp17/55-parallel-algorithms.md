@@ -1,5 +1,6 @@
 ---
 sidebar_position: 56
+slug: 55-parallel-algorithms
 title: "并行执行策略 (Parallel Execution Policies)"
 description: "C++17 并行执行策略 (Parallel Execution Policies) 教学示例"
 tags: [cpp17, parallel_algorithms]

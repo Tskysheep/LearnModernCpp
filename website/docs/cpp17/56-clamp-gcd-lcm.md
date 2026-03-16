@@ -1,5 +1,6 @@
 ---
 sidebar_position: 57
+slug: 56-clamp-gcd-lcm
 title: "std::clamp、std::gcd、std::lcm (数学工具)"
 description: "C++17 std::clamp、std::gcd、std::lcm (数学工具) 教学示例"
 tags: [cpp17, clamp_gcd_lcm]

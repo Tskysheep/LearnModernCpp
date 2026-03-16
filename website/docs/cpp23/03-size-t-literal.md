@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+slug: 03-size-t-literal
 title: "size_t 字面量后缀 (uz/UZ)"
 description: "C++23 size_t 字面量后缀 (uz/UZ) 教学示例"
 tags: [cpp23, size_t_literal]

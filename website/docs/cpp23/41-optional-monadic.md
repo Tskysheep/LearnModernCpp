@@ -1,5 +1,6 @@
 ---
 sidebar_position: 42
+slug: 41-optional-monadic
 title: "optional 的 monadic 操作"
 description: "C++23 optional 的 monadic 操作 教学示例"
 tags: [cpp23, optional_monadic]

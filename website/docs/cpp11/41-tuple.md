@@ -1,5 +1,6 @@
 ---
 sidebar_position: 42
+slug: 41-tuple
 title: "std::tuple、std::tie、std::get"
 description: "C++11 std::tuple、std::tie、std::get 教学示例"
 tags: [cpp11, tuple]

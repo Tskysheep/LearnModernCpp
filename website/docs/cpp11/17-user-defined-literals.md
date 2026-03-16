@@ -1,5 +1,6 @@
 ---
 sidebar_position: 18
+slug: 17-user-defined-literals
 title: "用户自定义字面量 (User-Defined Literals)"
 description: "C++11 用户自定义字面量 (User-Defined Literals) 教学示例"
 tags: [cpp11, user_defined_literals]

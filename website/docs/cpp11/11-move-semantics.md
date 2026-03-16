@@ -1,5 +1,6 @@
 ---
 sidebar_position: 12
+slug: 11-move-semantics
 title: "移动语义 (Move Semantics)"
 description: "C++11 移动语义 (Move Semantics) 教学示例"
 tags: [cpp11, move_semantics]

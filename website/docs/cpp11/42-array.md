@@ -1,5 +1,6 @@
 ---
 sidebar_position: 43
+slug: 42-array
 title: "std::array"
 description: "C++11 std::array 教学示例"
 tags: [cpp11, array]

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+slug: 06-designated-initializers
 title: "指定初始化器 (Designated Initializers)"
 description: "C++20 指定初始化器 (Designated Initializers) 教学示例"
 tags: [cpp20, designated_initializers]

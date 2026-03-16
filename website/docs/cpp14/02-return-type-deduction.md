@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: 02-return-type-deduction
 title: "函数返回类型推导"
 description: "C++14 函数返回类型推导 教学示例"
 tags: [cpp14, return_type_deduction]

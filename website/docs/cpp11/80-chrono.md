@@ -1,5 +1,6 @@
 ---
 sidebar_position: 81
+slug: 80-chrono
 title: "std::chrono 时间库"
 description: "C++11 std::chrono 时间库 教学示例"
 tags: [cpp11, chrono]

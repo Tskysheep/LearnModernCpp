@@ -1,5 +1,6 @@
 ---
 sidebar_position: 82
+slug: 81-random
 title: "⟨random⟩ 随机数库"
 description: "C++11 ⟨random⟩ 随机数库 教学示例"
 tags: [cpp11, random]

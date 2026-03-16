@@ -1,5 +1,6 @@
 ---
 sidebar_position: 42
+slug: 41-variant
 title: "std::variant 与 std::visit (类型安全联合体)"
 description: "C++17 std::variant 与 std::visit (类型安全联合体) 教学示例"
 tags: [cpp17, variant]

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 46
+slug: 45-math-constants
 title: "数学常量 (std::numbers)"
 description: "C++20 数学常量 (std::numbers) 教学示例"
 tags: [cpp20, math_constants]

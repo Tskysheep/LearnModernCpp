@@ -1,5 +1,6 @@
 ---
 sidebar_position: 9
+slug: 08-override-final
 title: "override 与 final 关键字"
 description: "C++11 override 与 final 关键字 教学示例"
 tags: [cpp11, override_final]

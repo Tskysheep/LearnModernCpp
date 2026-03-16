@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+slug: 01-if-consteval
 title: "if consteval（编译期求值分支）"
 description: "C++23 if consteval（编译期求值分支） 教学示例"
 tags: [cpp23, if_consteval]

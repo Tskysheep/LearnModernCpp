@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+slug: 04-abbreviated-templates
 title: "简写函数模板 (Abbreviated Function Templates)"
 description: "C++20 简写函数模板 (Abbreviated Function Templates) 教学示例"
 tags: [cpp20, abbreviated_templates]

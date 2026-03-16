@@ -1,5 +1,6 @@
 ---
 sidebar_position: 21
+slug: 20-ranges-basics
 title: "Ranges 基础 (std::ranges 算法)"
 description: "C++20 Ranges 基础 (std::ranges 算法) 教学示例"
 tags: [cpp20, ranges_basics]

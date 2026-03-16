@@ -1,5 +1,6 @@
 ---
 sidebar_position: 9
+slug: 08-has-include
 title: "__has_include 预处理检查"
 description: "C++17 __has_include 预处理检查 教学示例"
 tags: [cpp17, has_include]

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+slug: 01-concepts-basics
 title: "Concepts 基础 (concept、requires子句)"
 description: "C++20 Concepts 基础 (concept、requires子句) 教学示例"
 tags: [cpp20, concepts_basics]

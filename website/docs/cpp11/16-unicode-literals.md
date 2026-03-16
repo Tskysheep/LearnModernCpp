@@ -1,5 +1,6 @@
 ---
 sidebar_position: 17
+slug: 16-unicode-literals
 title: "Unicode字面量与字符类型"
 description: "C++11 Unicode字面量与字符类型 教学示例"
 tags: [cpp11, unicode_literals]

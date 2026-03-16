@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+slug: 04-nullptr
 title: "nullptr关键字"
 description: "C++11 nullptr关键字 教学示例"
 tags: [cpp11, nullptr]

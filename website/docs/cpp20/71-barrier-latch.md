@@ -1,5 +1,6 @@
 ---
 sidebar_position: 72
+slug: 71-barrier-latch
 title: "barrier、latch 和 counting_semaphore"
 description: "C++20 barrier、latch 和 counting_semaphore 教学示例"
 tags: [cpp20, barrier_latch]

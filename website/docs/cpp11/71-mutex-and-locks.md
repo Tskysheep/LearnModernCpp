@@ -1,5 +1,6 @@
 ---
 sidebar_position: 72
+slug: 71-mutex-and-locks
 title: "互斥锁与锁 (mutex、lock_guard、unique_lock)"
 description: "C++11 互斥锁与锁 (mutex、lock_guard、unique_lock) 教学示例"
 tags: [cpp11, mutex_and_locks]

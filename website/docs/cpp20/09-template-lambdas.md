@@ -1,5 +1,6 @@
 ---
 sidebar_position: 10
+slug: 09-template-lambdas
 title: "模板 Lambda (Template Lambdas)"
 description: "C++20 模板 Lambda (Template Lambdas) 教学示例"
 tags: [cpp20, template_lambdas]

@@ -30,6 +30,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 
 ### 01. 结构化绑定 (`01_structured_bindings.cpp`)
 
+> **[→ 查看完整代码](./01-structured-bindings)**
+
 :::tip 核心特性
 结构化绑定是 C++17 最常用的语法改进之一。
 :::
@@ -44,6 +46,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 
 ### 02. if/switch 初始化语句 (`02_if_switch_init.cpp`)
 
+> **[→ 查看完整代码](./02-if-switch-init)**
+
 - `if (auto it = map.find(key); it != map.end()) { ... }`
 - 变量作用域限制在 if/switch 块内
 - 代码更紧凑，减少变量泄漏
@@ -54,6 +58,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 
 ### 03. 类模板参数推导 CTAD (`03_ctad.cpp`)
 
+> **[→ 查看完整代码](./03-ctad)**
+
 - `std::pair p{1, 3.14};` 无需写 `std::pair<int, double>`
 - `std::vector v{1, 2, 3};` 自动推导为 `vector<int>`
 - 可自定义推导指引（deduction guide）
@@ -63,6 +69,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 :::
 
 ### 04. 折叠表达式 (`04_fold_expressions.cpp`)
+
+> **[→ 查看完整代码](./04-fold-expressions)**
 
 - `(args + ...)` 一元右折叠
 - `(... + args)` 一元左折叠
@@ -78,6 +86,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 
 ### 05. if constexpr (`05_constexpr_if.cpp`)
 
+> **[→ 查看完整代码](./05-constexpr-if)**
+
 :::tip 核心特性
 `if constexpr` 是模板编程的重大简化，能够替代大量 SFINAE 和标签分发的代码。
 :::
@@ -92,6 +102,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 
 ### 06. inline 变量 (`06_inline_variables.cpp`)
 
+> **[→ 查看完整代码](./06-inline-variables)**
+
 - 头文件中定义全局变量而不违反 ODR
 - `inline constexpr` 是定义头文件常量的推荐方式
 
@@ -101,6 +113,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 
 ### 07. 嵌套命名空间 (`07_nested_namespaces.cpp`)
 
+> **[→ 查看完整代码](./07-nested-namespaces)**
+
 - `namespace A::B::C { }` 替代多层嵌套
 
 :::info 参考链接
@@ -108,6 +122,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 :::
 
 ### 08. \_\_has\_include (`08_has_include.cpp`)
+
+> **[→ 查看完整代码](./08-has-include)**
 
 - 预处理期检查头文件是否存在
 - 实现可移植的特性检测
@@ -121,6 +137,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 ## 词汇类型（标准库核心）
 
 ### 40. std::optional (`40_optional.cpp`)
+
+> **[→ 查看完整代码](./40-optional)**
 
 :::tip 核心特性
 `std::optional` 是日常开发中使用频率极高的类型。
@@ -141,6 +159,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 
 ### 41. std::variant (`41_variant.cpp`)
 
+> **[→ 查看完整代码](./41-variant)**
+
 :::tip 核心特性
 `std::variant` 是类型安全的联合体，配合 `std::visit` 可以实现优雅的访问者模式。
 :::
@@ -156,6 +176,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 
 ### 42. std::any (`42_any.cpp`)
 
+> **[→ 查看完整代码](./42-any)**
+
 - 存储任意类型的值（类型安全的 `void*`）
 - `std::any_cast` 取回值，类型不匹配抛异常
 - 适合插件系统、配置存储等场景
@@ -165,6 +187,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 :::
 
 ### 43. std::string_view (`43_string_view.cpp`)
+
+> **[→ 查看完整代码](./43-string-view)**
 
 :::tip 核心特性
 `string_view` 是避免不必要字符串拷贝的利器。
@@ -183,6 +207,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 
 ### 44. std::byte (`44_byte.cpp`)
 
+> **[→ 查看完整代码](./44-byte)**
+
 - 类型安全的字节表示
 - 只支持位运算，不支持算术运算
 - 明确表达"这是原始字节数据"的语义
@@ -192,6 +218,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 :::
 
 ### 45. invoke 与 apply (`45_invoke_apply.cpp`)
+
+> **[→ 查看完整代码](./45-invoke-apply)**
 
 - `std::invoke` 统一调用任何可调用对象（包括成员函数）
 - `std::apply` 将 tuple 展开为函数参数
@@ -205,6 +233,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 ## 文件系统与算法
 
 ### 50. filesystem (`50_filesystem.cpp`)
+
+> **[→ 查看完整代码](./50-filesystem)**
 
 - 跨平台文件系统操作
 - 路径操作、目录遍历、文件状态查询
@@ -220,6 +250,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 
 ### 55. 并行算法 (`55_parallel_algorithms.cpp`)
 
+> **[→ 查看完整代码](./55-parallel-algorithms)**
+
 - `std::execution::par` 并行执行策略
 - `std::sort(std::execution::par, v.begin(), v.end())`
 - 一行代码开启并行化
@@ -229,6 +261,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 :::
 
 ### 56. clamp、gcd、lcm (`56_clamp_gcd_lcm.cpp`)
+
+> **[→ 查看完整代码](./56-clamp-gcd-lcm)**
 
 - `std::clamp(value, lo, hi)` 值钳制
 - `std::gcd` 最大公约数
@@ -243,6 +277,8 @@ C++17 是一次"实用升级"，重点在于**词汇类型**（optional/variant/
 ## 属性
 
 ### 90. 属性 (`90_attributes.cpp`)
+
+> **[→ 查看完整代码](./90-attributes)**
 
 - `[[nodiscard]]`：警告忽略返回值
 - `[[maybe_unused]]`：消除未使用变量/参数的警告

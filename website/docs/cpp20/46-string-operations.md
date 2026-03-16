@@ -1,5 +1,6 @@
 ---
 sidebar_position: 47
+slug: 46-string-operations
 title: "字符串操作 (starts_with / ends_with)"
 description: "C++20 字符串操作 (starts_with / ends_with) 教学示例"
 tags: [cpp20, string_operations]

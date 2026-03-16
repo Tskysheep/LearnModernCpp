@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+slug: 03-lambda-expressions
 title: "Lambda表达式"
 description: "C++11 Lambda表达式 教学示例"
 tags: [cpp11, lambda_expressions]

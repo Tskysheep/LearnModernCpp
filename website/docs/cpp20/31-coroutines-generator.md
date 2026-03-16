@@ -1,5 +1,6 @@
 ---
 sidebar_position: 32
+slug: 31-coroutines-generator
 title: "Generator 类型 (co_yield 生成器)"
 description: "C++20 Generator 类型 (co_yield 生成器) 教学示例"
 tags: [cpp20, coroutines_generator]

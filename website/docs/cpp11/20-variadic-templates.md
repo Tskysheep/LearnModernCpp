@@ -1,5 +1,6 @@
 ---
 sidebar_position: 21
+slug: 20-variadic-templates
 title: "可变参数模板 (Variadic Templates)"
 description: "C++11 可变参数模板 (Variadic Templates) 教学示例"
 tags: [cpp11, variadic_templates]

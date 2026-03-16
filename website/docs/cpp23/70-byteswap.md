@@ -1,5 +1,6 @@
 ---
 sidebar_position: 71
+slug: 70-byteswap
 title: "std::byteswap（字节序转换）"
 description: "C++23 std::byteswap（字节序转换） 教学示例"
 tags: [cpp23, byteswap]

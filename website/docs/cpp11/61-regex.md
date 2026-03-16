@@ -1,5 +1,6 @@
 ---
 sidebar_position: 62
+slug: 61-regex
 title: "⟨regex⟩ 正则表达式"
 description: "C++11 ⟨regex⟩ 正则表达式 教学示例"
 tags: [cpp11, regex]

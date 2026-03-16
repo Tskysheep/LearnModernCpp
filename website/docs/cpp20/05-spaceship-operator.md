@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+slug: 05-spaceship-operator
 title: "三路比较运算符 (Spaceship Operator ⟺)"
 description: "C++20 三路比较运算符 (Spaceship Operator ⟺) 教学示例"
 tags: [cpp20, spaceship_operator]

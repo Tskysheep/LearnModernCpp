@@ -1,5 +1,6 @@
 ---
 sidebar_position: 22
+slug: 21-ranges-views
 title: "Ranges 视图 (Views: filter/transform/take 等)"
 description: "C++20 Ranges 视图 (Views: filter/transform/take 等) 教学示例"
 tags: [cpp20, ranges_views]

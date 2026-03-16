@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+slug: 03-variable-templates
 title: "变量模板"
 description: "C++14 变量模板 教学示例"
 tags: [cpp14, variable_templates]

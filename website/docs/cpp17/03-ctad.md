@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+slug: 03-ctad
 title: "类模板参数推导 CTAD (Class Template Argument Deduction)"
 description: "C++17 类模板参数推导 CTAD (Class Template Argument Deduction) 教学示例"
 tags: [cpp17, ctad]

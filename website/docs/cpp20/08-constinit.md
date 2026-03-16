@@ -1,5 +1,6 @@
 ---
 sidebar_position: 9
+slug: 08-constinit
 title: "constinit"
 description: "C++20 constinit 教学示例"
 tags: [cpp20, constinit]
