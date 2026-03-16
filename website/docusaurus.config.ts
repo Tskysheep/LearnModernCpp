@@ -3,15 +3,15 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'LearnCpp',
+  title: 'LearnModernCpp',
   tagline: '现代 C++ 完整教学示例 — 从 C++11 到 C++23',
   favicon: 'img/logo.svg',
 
-  url: 'https://learncpp.example.com',
-  baseUrl: '/',
+  url: 'https://tskysheep.github.io',
+  baseUrl: '/LearnModernCpp/',
 
-  organizationName: 'learncpp',
-  projectName: 'learncpp',
+  organizationName: 'Tskysheep',
+  projectName: 'LearnModernCpp',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
