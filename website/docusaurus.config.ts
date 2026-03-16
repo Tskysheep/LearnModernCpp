@@ -18,19 +18,7 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans', 'en'],
-    localeConfigs: {
-      'zh-Hans': {
-        label: '简体中文',
-        direction: 'ltr',
-        htmlLang: 'zh-Hans',
-      },
-      en: {
-        label: 'English',
-        direction: 'ltr',
-        htmlLang: 'en-US',
-      },
-    },
+    locales: ['zh-Hans'],
   },
 
   markdown: {
@@ -70,7 +58,6 @@ const config: Config = {
           position: 'left',
           label: '文档',
         },
-        {type: 'localeDropdown', position: 'right'},
         {
           href: 'https://github.com/learncpp/learncpp',
           label: 'GitHub',
