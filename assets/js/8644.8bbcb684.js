@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunklearncpp_docs=globalThis.webpackChunklearncpp_docs||[]).push([[8644],{98644(c,e,a){a.d(e,{createArchitectureServices:()=>r.S});var r=a(85877);a(6902)}}]);
